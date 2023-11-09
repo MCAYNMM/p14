@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr1= [];
+    function nn(x){
+        let y = x[0];
+        if(x.length == 0)
+            return 'koco phan tu nao';
+        for (let i = 0; i < x.length; i++) {
+            if(y > x[i]){
+                y = x[i];
+            }
+        }
+        return y;
+    }
+    document.write(nn(arr1));
+</script>
+</body>
+</html>

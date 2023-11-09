@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="number" name="fahrenheit" id="f" onchange="doi()">
+<p id = "result"></p>
+<script>
+    function doi(){
+        let val = document.getElementById('f').value;
+        document.getElementById('result').innerHTML = (val-32) / 1.8;
+    }
+</script>
+</body>
+</html>
